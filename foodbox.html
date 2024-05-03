@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="styles.css">
+
+
+<title>Full Hearts Cafe</title>
+
+</head>
+
+<body>
+
+    <!-- this begins the header code -->
+
+    <header>
+
+        <nav class="navbar navbar-dark navbar-expand-lg">
+            <div class="container-fluid d-flex justify-content-between align-items-end">
+                <a class="navbar-brand custom-brand" href="#">
+                    <img src="images/logo-01.svg" alt="Logo" width="60" height="50" class="d-inline-block align-text-bottom">
+                </a>
+                <a class="navbar-brand custom-brand-text" href="index.html"> 
+                    <span class="brand-text-red-one">Full</span>
+                    <span class="brand-text-red-two">Hearts</span>
+                    <span class="brand-text-red-three">Cafe</span>
+                </a>                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="foodbox.html">PAYF Food Box</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="merch.html">Merch</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="location.html">Mon-Sun 9am-10pm</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+
+    </header>
+
+    <!-- this ends the header code -->
+
+
+    <!-- this begins the main code -->
+
+    <main>
+
+            
+            <div class="container py-3">
+                <img src="images/food_box_mockup.png" class="img-fluid" alt="picture of food box">
+            </div>
+        
+
+
+        <!-- begin caption -->
+
+        <main>
+            <div class="container py-3">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 class="mt-5">Reserve Weekly "Pay As You Feel" Food Box</h1>
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Your Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="quantity" class="form-label">Quantity of Boxes</label>
+                                <input type="number" class="form-control" id="quantity" min="1" placeholder="Enter quantity" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Additional Message</label>
+                                <textarea class="form-control" id="message" rows="3" placeholder="Enter any additional message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-custom">Submit Reservation</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="mt-5">Pick Up Location</h2>
+                        <div class="map-container">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4971.199765210831!2d-2.5909679079952888!3d51.46550229940727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718e7348f4f57d%3A0x106a46842d74f1d!2sThe%20Bristolian!5e0!3m2!1sen!2suk!4v1714750548796!5m2!1sen!2suk" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+
+    </main>
+    <!-- this ends the main code -->
+
+    <footer class="footer">
+        <div class="container-fluid py-4">
+            <div class="row">
+                <div class="col-12 text-center">
+                    &copy; 2024 Full Hearts Cafe. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
