@@ -1,0 +1,25 @@
+images:
+
+restaurant frontage mockup - https://unblast.com/free-store-view-mockup-psd/
+tote bag mockup - https://mockups-design.com/canvas-bag-mockup/
+food box mockup - https://mockups-design.com/simple-box-mockup/
+bucket hat mockup - https://mockups-design.com/bucket-hat-mockup/
+t-shirt mockup - https://mockups-design.com/free-hanging-t-shirt-mockup/
+mug mockup - https://mockups-design.com/coffee-mug-on-a-wood-slice-mockup/
+restaurant environment - https://unsplash.com/photos/group-of-people-eating-inside-cafeteria-rWjd8kNuT7Q
+restaurant environment two - https://unsplash.com/photos/man-standing-beside-espresso-maker-MhOoD_h90ks
+volunteer mathias - https://unsplash.com/photos/man-in-white-crew-neck-shirt-iGzHMzRZjRs
+volunteer jessica - https://unsplash.com/photos/woman-holding-clear-drinking-glass-9fHMo1-5Io8
+volunteer james - https://pixabay.com/photos/baker-man-portrait-oven-costume-1620504/
+english breakfast - https://unsplash.com/photos/loft-bread-on-round-white-ceramic-plate-_dves-zo82Q
+pizza - https://pixabay.com/photos/pizza-food-italy-3000274/
+sausage and mash - https://pixabay.com/photos/bangers-mash-peas-gravy-sauce-2430853/
+
+chatgpt:
+
+restaurant name - https://chatgpt.com/
+google map embed responsiveness code help: https://chatgpt.com/
+
+website code: carousel, navbar, row cols, caption - bootstrap 5 worksheet 2 by Mary Jackson.
+form code: https://getbootstrap.com/docs/5.3/forms/overview/
+
